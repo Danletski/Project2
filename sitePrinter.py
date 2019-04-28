@@ -2,7 +2,7 @@
 from selenium import webdriver
 
 #Driver location
-driver = webdriver.Chrome(executable_path='/Users/dans/.jenkins/workspace/RedisPrinter/chromedriver')
+driver = webdriver.Chrome(executable_path='./chromedriver')
 
 #Open website
 driver.get('http://192.168.99.100:5000')
