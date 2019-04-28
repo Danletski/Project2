@@ -1,10 +1,8 @@
 #SitePrinter
-from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
-from selenium.webdriver.remote.webelement import WebElement
 
 #Driver location
-driver = webdriver.Chrome(executable_path='/Users/dans/Documents/Devops/chromedriver')
+driver = webdriver.Chrome(executable_path='/Users/dans/.jenkins/workspace/RedisPrinter/chromedriver')
 
 #Open website
 driver.get('http://192.168.99.100:5000')
