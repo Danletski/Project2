@@ -12,8 +12,8 @@ driver.get('http://192.168.99.100:5000')
 driver.implicitly_wait(3)
 
 #Locate text
-html = driver.page_source
-print(html)
+#html = driver.page_source
+print('123')
 
 #Close page
 driver.close()
